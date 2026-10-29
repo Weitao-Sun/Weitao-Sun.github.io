@@ -120,3 +120,14 @@ footer {
 @media (max-width: 480px) {
   .terminal pre { font-size: 0.76rem; padding: 14px 14px 18px; }
 }
+
+/* Document pages (e.g. /privacy) */
+.doc { padding-top: 56px; }
+.doc a { color: var(--accent); }
+.doc .hello a { text-decoration: none; }
+.doc h1 { font-size: clamp(2rem, 7vw, 2.8rem); margin-bottom: 8px; }
+.doc .meta { font: 0.85rem var(--mono); color: var(--muted); margin: 0 0 32px; }
+.doc h2 { font-size: 1.1rem; font-weight: 700; margin: 32px 0 8px; }
+.doc p, .doc li { color: var(--fg); }
+.doc ul { padding-left: 1.2em; }
+.doc li { margin-bottom: 6px; }
