@@ -1,41 +1,100 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Weitao Sun</title>
-  <meta name="description" content="Weitao Sun 的个人主页">
+  <meta name="description" content="Weitao Sun — Ph.D. student in Computer Science at UC Irvine.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main>
-    <header>
+  <div class="layout">
+    <aside class="profile">
+      <!-- Replace with <img class="avatar" src="avatar.jpg" alt="Weitao Sun"> once you add a photo -->
+      <div class="avatar" aria-hidden="true">WS</div>
       <h1>Weitao Sun</h1>
-      <p class="tagline">一句话介绍自己，比如：软件工程师 / 喜欢做有趣的东西</p>
-    </header>
+      <p class="role">Ph.D. Student, Computer Science</p>
+      <p class="affil">University of California, Irvine</p>
 
-    <section>
-      <h2>关于我</h2>
-      <p>在这里写几句自我介绍：你在做什么、对什么感兴趣。</p>
-    </section>
-
-    <section>
-      <h2>项目</h2>
-      <ul>
-        <li><a href="https://github.com/Weitao-Sun">项目名称</a> — 一句话描述</li>
-        <li><a href="https://github.com/Weitao-Sun">项目名称</a> — 一句话描述</li>
+      <ul class="contact">
+        <li><span class="k">email</span><a href="mailto:you@uci.edu">you [at] uci.edu</a></li>
+        <li><span class="k">github</span><a href="https://github.com/Weitao-Sun">Weitao-Sun</a></li>
+        <li><span class="k">scholar</span><a href="#">Google Scholar</a></li>
+        <li><span class="k">cv</span><a href="#">CV (PDF)</a></li>
       </ul>
-    </section>
+    </aside>
 
-    <section>
-      <h2>联系</h2>
-      <ul class="links">
-        <li><a href="https://github.com/Weitao-Sun">GitHub</a></li>
-        <li><a href="mailto:you@example.com">Email</a></li>
-      </ul>
-    </section>
+    <main>
+      <section id="about">
+        <h2>About</h2>
+        <p>
+          I am a Ph.D. student in Computer Science at the
+          <a href="https://www.ics.uci.edu/">University of California, Irvine</a>.
+          My research focuses on <em>[your research area]</em>, where I work on
+          <em>[one sentence on the problems you study and the approach you take]</em>.
+        </p>
+        <p>
+          Before UCI, I received my M.S. from UCLA and my B.S. from UC San Diego.
+        </p>
+        <div class="tags">
+          <span>Research Area 1</span>
+          <span>Research Area 2</span>
+          <span>Research Area 3</span>
+        </div>
+      </section>
 
-    <footer>© 2026 Weitao Sun</footer>
-  </main>
+      <section id="news">
+        <h2>News</h2>
+        <ul class="news">
+          <li><time>2026.09</time><span>Placeholder — e.g. a paper accepted, an internship, a talk.</span></li>
+          <li><time>2026.06</time><span>Placeholder — another update.</span></li>
+        </ul>
+      </section>
+
+      <section id="publications">
+        <h2>Publications</h2>
+        <ol class="pubs">
+          <li>
+            <p class="title">Paper Title Goes Here</p>
+            <p class="authors"><strong>Weitao Sun</strong>, Coauthor A, Coauthor B</p>
+            <p class="venue"><span class="badge">Venue 2026</span>
+              <a href="#">[PDF]</a> <a href="#">[Code]</a></p>
+          </li>
+        </ol>
+      </section>
+
+      <section id="education">
+        <h2>Education</h2>
+        <ul class="timeline">
+          <li>
+            <div class="when">Present</div>
+            <div>
+              <p class="school">University of California, Irvine</p>
+              <p class="degree">Ph.D. in Computer Science</p>
+            </div>
+          </li>
+          <li>
+            <div class="when">—</div>
+            <div>
+              <p class="school">University of California, Los Angeles</p>
+              <p class="degree">M.S.</p>
+            </div>
+          </li>
+          <li>
+            <div class="when">—</div>
+            <div>
+              <p class="school">University of California, San Diego</p>
+              <p class="degree">B.S.</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <footer>© 2026 Weitao Sun · Last updated Oct 2026</footer>
+    </main>
+  </div>
 </body>
 </html>
